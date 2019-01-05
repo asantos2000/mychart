@@ -7,7 +7,7 @@ Example how to create a chart
 ## Package and distribute
 
 ```bash
-helm package ./mychart
+helm package .
 
 # Move chart package to your chart repository
 mv mychart-0.1.0.tgz ../helm-charts
